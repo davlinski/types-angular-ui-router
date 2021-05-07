@@ -105,6 +105,27 @@ declare module 'angular' {
              */
             redirectTo?: string | Function | IState;
 
+            disallowBack?: boolean;
+
+            ignoreNavigationStack?: boolean;
+
+            isEdit?: boolean;
+
+            isFromBack?: boolean;
+
+            isFromEnd?: boolean;
+
+            isModal?: boolean;
+
+            modified?: boolean;
+
+            breadcrumbTitle?: string;
+            breadcrumbTitleKey?: string;
+            breadcrumbTitleParams?: any;
+
+            pageTitle?: string;
+            pageTitleKey?: string;
+            pageTitleParams?: any;
         }
 
         interface IUnfoundState {
